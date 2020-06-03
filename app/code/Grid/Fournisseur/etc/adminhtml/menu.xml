@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="//www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Grid_Fournisseur::test"  title="Grid Fournisseur" module="Grid_Fournisseur" sortOrder="50" resource="Grid_Fournisseur::test" />
+        <add id="Grid_Fournisseur::grid"  title="Grid" module="Grid_Fournisseur" sortOrder="20" parent="Grid_Fournisseur::test" action="test/grid" resource="Grid_Fournisseur::grid"/>
+    </menu>
+</config>
